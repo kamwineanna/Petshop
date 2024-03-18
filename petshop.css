@@ -1,0 +1,71 @@
+body{
+
+    background-color: black;
+}
+nav{
+    color: white;
+    display: flexbox;
+    background-color: white;
+    overflow: hidden;
+    display: block;
+    text-align: center;
+   list-style-type: none;
+}
+.back-ground{
+    background-image: url(cat.jpg);
+    background-size:cover;
+    height: 800px;
+    color: white;
+ align-items: center;
+ /*padding: 500px 200px;*/
+ text-align: center;
+}
+.background-text{
+    padding: 500px 200px;
+}
+.about{
+    color: white;
+    background-color: black;
+}
+.card-section{
+    display: flex;
+    color: white;
+gap: 20px;  
+   border-style: inset;
+    border-color: darkorange;
+
+}
+.dog img{
+    height: 200px;
+    object-fit: cover;
+    width: 300px;
+}
+.Horses img{
+    height: 200px;
+    object-fit: cover;
+    width: 300px;  
+}
+.Bunnies img{
+    height: 200px;
+    object-fit: cover;
+    width: 300px;  
+}
+.cats img{
+    height: 200px;
+    object-fit: cover;
+    width: 300px;  
+}
+.text{
+    text-align: center;
+    padding: 300px 100px;
+}
+.close-section{
+    color: white;
+    background-image: url(guinea-pig.jpeg);
+    background-size: cover;
+    height: 600px;
+   
+   }
+.btn{
+    fill: black;
+}
