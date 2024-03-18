@@ -5,11 +5,9 @@ body{
 nav{
     color: white;
     display: flexbox;
-    background-color: white;
-    overflow: hidden;
-    display: block;
-    text-align: center;
-   list-style-type: none;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
 }
 .back-ground{
     background-image: url(cat.jpg);
