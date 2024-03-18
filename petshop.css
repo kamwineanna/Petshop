@@ -1,9 +1,9 @@
 body{
 
     background-color: black;
+    font-size: 16px;
 }
 nav{
-    color: white;
     display: flexbox;
     background-color: rgb(0, 0, 0);
     display: flex;
@@ -67,3 +67,15 @@ gap: 20px;
 .btn{
     fill: black;
 }
+
+/* re...... */
+
+@media (max-width: 600px) {
+    .card-section{
+        display: flex;
+        flex-direction: column;
+ 
+    
+    }
+  }
+  
